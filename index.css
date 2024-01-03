@@ -1,4 +1,31 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600;400&display=swap');
+html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #C8E6CA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+      
+.card{
+  background-color: rgba(255, 255, 255, 0.871);
+  width: 1122px;
+  height: 667px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px gray;
+  position: relative;
+  overflow: hidden;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
